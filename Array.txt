@@ -1,0 +1,87 @@
+1. public class Array{
+   public static void main(String args[]){
+    byte[] marks={45,67,34,72,10,63,37,28,11,49};
+    System.out.println(marks[5]);
+
+     for(int i=0;i<10;i++){
+         System.out.println(marks[i]);
+     }
+    }
+  }
+ 
+2.public class Array1 {
+	public static void main(String[] args){
+		short studentid[] = {1001,2020,3333,4567,2323,6457,1234,4523,7563,1298};
+		System.out.println(studentid[4]);
+
+		for(int j=0;j < studentid.length;j++){
+			System.out.println(studentid[j]);
+		}
+	}
+  }
+
+3.public class Array2{
+	public static void main(String[] args){
+		int salary[] = {23000,45000,78000,48000,60000,35000,30000,20000,50500,77000};
+		System.out.println(salary[5]);
+
+		for(int k=0;k< salary.length;k++){
+			System.out.println(salary[k]);
+		}
+	}
+  }
+
+4.public class Array3{
+	public static void main(String[] args){
+		long monthlyIncome[] = {2300000,4545000,7458000,4558000,2360000,6635000,6630000,7620000,5230500,7703200};
+		System.out.println(monthlyIncome[5]);
+
+		for(int l=0;l< monthlyIncome.length;l++){
+			System.out.println(monthlyIncome[l]);
+		}
+	}
+}
+
+5.public class Array4{
+	public static void main(String[] args){
+		float floatNo[] = {0.2f,1.5f,3.4f,4.3f,0.89f,5.8f,3.3f,0.99f,9.93f,2.34f};
+		System.out.println(floatNo[5]);
+
+		for(int m=0;m< floatNo.length;m++){
+			System.out.println(floatNo[m]);
+		}
+	}
+ }
+
+6.public class Array5{
+	public static void main(String[] args){
+		double deciNo[] = {23.3333,12.3323,45.7890,56.1200,43.0340,90.1223,79.1345,34.8765,55.3214,88.3456};
+		System.out.println(deciNo[5]);
+
+		for(int n=0;n< deciNo.length;n++){
+			System.out.println(deciNo[n]);
+		}
+	}
+}
+
+7.public class Array6{
+	public static void main(String[] args){
+		char alpha[] = {'a','b','c','d','e','f','g','h','i','j'};
+		System.out.println(alpha[3]);
+
+		for(int q=0;q< alpha.length;q++){
+			System.out.println(alpha[q]);
+		}
+	}
+}
+
+8.public class Array7{
+	public static void main(String[] args){
+		boolean trOrFa[] = {true,false,true,true,true,false,true,false,true,true};
+		System.out.println(trOrFa[3]);
+
+		for(int r=0;r< trOrFa.length;r++){
+			System.out.println(trOrFa[r]);
+		}
+	}
+}
