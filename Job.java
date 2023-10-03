@@ -26,6 +26,8 @@ public class Job {
 	public static void main(String[] args){
 		
 		Job jb =new Job("Kishore","Male","BCA",5,"Narayana College",2019,"Chennai","Wipro","Full-time",45000);
+		
+		if(jb!=null){
 		System.out.println("First Name:" + jb.firstName);
 		System.out.println("Gender:" + jb.gender);
 		System.out.println("Qualification:" + jb.qualification);
@@ -36,10 +38,13 @@ public class Job {
 		System.out.println("Company:" + jb.company);
 		System.out.println("Work-type:" + jb.workType);
 		System.out.println("Salary:" + jb.salary);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Job jb1 =new Job("Akash","Male","B.Tech",3,"JNN College",2020,"Mumbai","TCS","Full-time",35000);
+		
+		if(jb1!=null){
 		System.out.println("First Name:" + jb1.firstName);
 		System.out.println("Gender:" + jb1.gender);
 		System.out.println("Qualification:" + jb1.qualification);
@@ -50,10 +55,13 @@ public class Job {
 		System.out.println("Company:" + jb1.company);
 		System.out.println("Work-type:" + jb1.workType);
 		System.out.println("Salary:" + jb1.salary);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Job jb2 =new Job("Sahana","Female","B.Com",2,"PESIT College",2021,"Bengaluru","Infosys","Full-time",25000);
+		
+		if(jb2!=null){
 		System.out.println("First Name:" + jb2.firstName);
 		System.out.println("Gender:" + jb2.gender);
 		System.out.println("Qualification:" + jb2.qualification);
@@ -64,6 +72,7 @@ public class Job {
 		System.out.println("Company:" + jb2.company);
 		System.out.println("Work-type:" + jb2.workType);
 		System.out.println("Salary:" + jb2.salary);
+		}
 		
 	}
 }

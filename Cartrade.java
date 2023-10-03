@@ -26,6 +26,8 @@ public class Cartrade {
 	public static void main(String[] args){
 		
 		Cartrade ct =new Cartrade("Ritz",2015,"Ram",235000,200000,35000,"Petrol","Individual","Manual",3504);
+		
+		if(ct!=null){
 		System.out.println("Car Name:" + ct.carName);
 		System.out.println("Sold at the year:" + ct.yearSold);
 		System.out.println("Car owner name:" + ct.ownerName);
@@ -36,10 +38,12 @@ public class Cartrade {
 		System.out.println("Seller type:" + ct.sellerType);
 		System.out.println("Transmission:" + ct.transmission);
 		System.out.println("weight:" + ct.weight);
-		
+		}
 		System.out.println("----------------------------------------------------------------");
 		
 		Cartrade ct1 =new Cartrade("Wagonr",2011,"Shekar",250000,200000,30000,"Diesel","Individual","Manual",4504);
+		
+		if(ct1!=null){
 		System.out.println("Car Name:" + ct1.carName);
 		System.out.println("Sold at the year:" + ct1.yearSold);
 		System.out.println("Car owner name:" + ct1.ownerName);
@@ -50,10 +54,13 @@ public class Cartrade {
 		System.out.println("Seller type:" + ct1.sellerType);
 		System.out.println("Transmission:" + ct1.transmission);
 		System.out.println("weight:" + ct1.weight);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Cartrade ct2 =new Cartrade("Nano",2010,"Prasad",150000,120000,20000,"Petrol","Individual","Manual",2504);
+		
+		if(ct2!=null){
 		System.out.println("Car Name:" + ct2.carName);
 		System.out.println("Sold at the year:" + ct2.yearSold);
 		System.out.println("Car owner name:" + ct2.ownerName);
@@ -64,6 +71,6 @@ public class Cartrade {
 		System.out.println("Seller type:" + ct2.sellerType);
 		System.out.println("Transmission:" + ct2.transmission);
 		System.out.println("weight:" + ct2.weight);
-		
+		}
 	}
 }

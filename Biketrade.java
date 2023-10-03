@@ -26,6 +26,8 @@ public class Biketrade {
 	public static void main(String[] args){
 		
 		Biketrade bt =new Biketrade("Pulsar200NS",2015,"Manoj",235000,90000,35000,"Petrol","Individual","200cc",150);
+		
+		if(bt!=null){
 		System.out.println("Bike Name:" + bt.bikeName);
 		System.out.println("Sold at the year:" + bt.yearSold);
 		System.out.println("Bike owner name:" + bt.ownerName);
@@ -36,10 +38,13 @@ public class Biketrade {
 		System.out.println("Seller type:" + bt.sellerType);
 		System.out.println("transmissionSpeed:" + bt.transmissionSpeed);
 		System.out.println("weight:" + bt.weight);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Biketrade bt1 =new Biketrade("Xpulse2004v",2022,"Akshay",210000,190000,30000,"Petrol","Individual","200cc",204);
+		
+		if(bt1!=null){
 		System.out.println("Bike Name:" + bt1.bikeName);
 		System.out.println("Sold at the year:" + bt1.yearSold);
 		System.out.println("Bike owner name:" + bt1.ownerName);
@@ -50,10 +55,14 @@ public class Biketrade {
 		System.out.println("Seller type:" + bt1.sellerType);
 		System.out.println("transmissionSpeed:" + bt1.transmissionSpeed);
 		System.out.println("weight:" + bt1.weight);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Biketrade bt2 =new Biketrade("Apacherr310",2018,"Surya",350000,320000,10000,"Petrol","Individual","310cc",304);
+		
+		
+		if(bt2!=null){
 		System.out.println("Bike Name:" + bt2.bikeName);
 		System.out.println("Sold at the year:" + bt2.yearSold);
 		System.out.println("Bike owner name:" + bt2.ownerName);
@@ -64,6 +73,7 @@ public class Biketrade {
 		System.out.println("Seller type:" + bt2.sellerType);
 		System.out.println("transmissionSpeed:" + bt2.transmissionSpeed);
 		System.out.println("weight:" + bt2.weight);
+		}
 		
 	}
 }

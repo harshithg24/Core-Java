@@ -26,6 +26,8 @@ public class Laptopsale {
 	public static void main(String[] args){
 		
 		Laptopsale ls =new Laptopsale("Lenovo",2015,"S540 Ideapad",8,256,13.3f,"Windows","10th generation","keyboard is not proper",1530);
+		
+		if(ls!=null){
 		System.out.println("Brand Name:" + ls.brand);
 		System.out.println("Manufactured year:" + ls.manufYear);
 		System.out.println("Model name:" + ls.modelName);
@@ -36,10 +38,13 @@ public class Laptopsale {
 		System.out.println("Generation:" + ls.generation);
 		System.out.println("Any Damage:" + ls.anyDamage);
 		System.out.println("weight In Grams:" + ls.weightInGrams);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Laptopsale ls1 =new Laptopsale("HP",2020,"Ultrabook",6,1000,13.2F,"Windows","!!th generation","Display is not working",1204);
+		
+		if(ls1!=null){
 		System.out.println("Brand Name:" + ls1.brand);
 		System.out.println("Manufactured year:" + ls1.manufYear);
 		System.out.println("Model name:" + ls1.modelName);
@@ -50,10 +55,13 @@ public class Laptopsale {
 		System.out.println("Generation:" + ls1.generation);
 		System.out.println("Any Damage:" + ls1.anyDamage);
 		System.out.println("weight In Grams:" + ls1.weightInGrams);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Laptopsale ls2 =new Laptopsale("Dell",2018,"Notebook",12,256,13.4f,"Windows","8th generation","camera problem",1304);
+		
+		if(ls2!=null){
 		System.out.println("Brand Name:" + ls2.brand);
 		System.out.println("Manufactured year:" + ls2.manufYear);
 		System.out.println("Model name:" + ls2.modelName);
@@ -64,6 +72,7 @@ public class Laptopsale {
 		System.out.println("Generation:" + ls2.generation);
 		System.out.println("Any Damage:" + ls2.anyDamage);
 		System.out.println("weight In Grams:" + ls2.weightInGrams);
+		}
 		
 	}
 }

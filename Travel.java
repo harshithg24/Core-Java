@@ -26,6 +26,8 @@ public class Travel {
 	public static void main(String[] args){
 		
 		Travel tl =new Travel("Disha","Goa","22/10/2023","24/10/2023",2,22,"Female","Indian","Resort",4500);
+		
+		if(tl!=null){
 		System.out.println("First name:" + tl.name);
 		System.out.println("Destination:" + tl.destination);
 		System.out.println("Start Date:" + tl.startDate);
@@ -36,10 +38,13 @@ public class Travel {
 		System.out.println("Nationality:" + tl.nationality);
 		System.out.println("Accomodation:" + tl.accomodation);
 		System.out.println("Amount:" + tl.amount);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Travel tl1 =new Travel("Ashish","Wayanad","20/11/2023","23/11/2023",3,26,"Male","Indian","Hotel",6500);
+		
+		if(tl1!=null){
 		System.out.println("First name:" + tl1.name);
 		System.out.println("Destination:" + tl1.destination);
 		System.out.println("Start Date:" + tl1.startDate);
@@ -50,10 +55,13 @@ public class Travel {
 		System.out.println("Nationality:" + tl1.nationality);
 		System.out.println("Accomodation:" + tl1.accomodation);
 		System.out.println("Amount:" + tl1.amount);
+		}
 		
 		System.out.println("----------------------------------------------------------------");
 		
 		Travel tl2 =new Travel("Ganesh","Pondicherry","05/10/2023","07/10/2023",2,22,"Male","Indian","Villa",5500);
+		
+		if(tl2!=null){
 		System.out.println("First name:" + tl2.name);
 		System.out.println("Destination:" + tl2.destination);
 		System.out.println("Start Date:" + tl2.startDate);
@@ -64,6 +72,7 @@ public class Travel {
 		System.out.println("Nationality:" + tl2.nationality);
 		System.out.println("Accomodation:" + tl2.accomodation);
 		System.out.println("Amount:" + tl2.amount);
+		}
 		
 	}
 }
