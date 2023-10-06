@@ -61,10 +61,10 @@ public class StringMethods{
 		char[] charArray = schoolName.toCharArray();
 		for(int i=0;i<charArray.length;i++)
 	    System.out.println(charArray[i]);
-		
+	
 		String[] splitString = collegeName.split(" ");
 		for(int i=0;i<splitString.length;i++)
-		System.out.println(splittedString[i]);
+		System.out.println(splitString[i]);
 		
 		
 		
