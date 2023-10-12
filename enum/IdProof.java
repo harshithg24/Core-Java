@@ -1,0 +1,3 @@
+public enum IdProof{
+	ADHAAR_CARD,PAN_CARD,DRIVING_LICENSE;
+}
