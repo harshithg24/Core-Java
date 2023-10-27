@@ -3,7 +3,7 @@ public class VGameApp{
 	VideoGame[] videoGame = new VideoGame[5];
 	
 	boolean storeGame(VideoGame vGame){
-		
+		 
 		boolean validGame = validateGame(vGame);
 		
 		if(validGame){

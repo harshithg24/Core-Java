@@ -14,7 +14,7 @@ public class VGameRun{
 	VideoGame vg3 = new VideoGame("The Legend of Zelda",4,20,GameType.ACTION_ADVENTURE,true,vc3);
 	VideoGame vg4 = new VideoGame("Mass Effect",4,20,GameType.ACTION,true,vc4);
 	
-	app.storeGame(vg);
+	app.storeGame(vg); 
 	app.storeGame(vg1);
 	app.storeGame(vg2);
 	app.storeGame(vg3);

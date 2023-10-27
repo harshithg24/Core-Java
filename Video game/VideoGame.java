@@ -1,7 +1,7 @@
 public class VideoGame{
 	String name;
 	int numberOfPlayers;
-	int numberOfLevels;
+	int numberOfLevels; 
 	GameType type;
 	boolean isFree;
 	String[] characters;
