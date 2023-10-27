@@ -12,7 +12,7 @@ public class VGameApp{
 				
 				if(videoGame[i]==null){
 					videoGame[i]=vGame;
-					System.out.println("Successfully saved!");
+					System.out.println("Successfully saved!" + vGame.getName());
 					return true;
 				}
 				else{
@@ -22,6 +22,7 @@ public class VGameApp{
 			System.out.println("Index has no sapce");
 			return false;
 		}
+		System.out.println("Game Not saved");
 		return false;
 	}
 	

@@ -8,7 +8,7 @@ public class VGameRun{
 	String[] vc3 = {"Link","Zelda","Genon","Rozer","Glen"};
 	String[] vc4 = {"Shepard","Garrus","Rayya","vakarian","Zorah"};
 	
-	VideoGame vg = new VideoGame("The Witcher3",4,20,GameType.ACTION,true,vc);
+	VideoGame vg = new VideoGame("The witcher 3",4,20,GameType.ACTION,true,vc);
 	VideoGame vg1 = new VideoGame("Overwatch Shooting",5,15,GameType.SHOOTING,false,vc1);
 	VideoGame vg2 = new VideoGame("Super Mario Odyssey",4,20,GameType.PLATFORMER,true,vc2);
 	VideoGame vg3 = new VideoGame("The Legend of Zelda",4,20,GameType.ACTION_ADVENTURE,true,vc3);
