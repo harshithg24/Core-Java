@@ -14,14 +14,14 @@ public class WatchRun{
 		
 		app.saveWatch(wat2);
 		
-	Watch[] returnedValues = app.returnValue();
+	Watch[] returnedValues = app.returnValue();	
 	
 		for(int i=0;i<returnedValues.length;i++){
 			if(returnedValues[i]!=null)
 			returnedValues[i].printValues();
 		
 	}
-		
+	
 
 		
 	}

@@ -24,7 +24,7 @@ public class ComputerStarter{
 			System.out.println(com.sound);
 			System.out.println(com.brightness);
 			System.out.println(com.bluetooth);
-			
+				
 			System.out.println("---------------------------------------------------");
 			
 			System.out.println(Computer.wallpaper);

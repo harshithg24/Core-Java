@@ -1,0 +1,114 @@
+JAVA TEST
+
+1. Java is a programmimg language is also known as compiled and interpreted language, it is used in web applications, mobile application,in the web development.
+
+   javac is used in the command prompt to compile the java code which converts the java code to bytecode.If there is an error in the code the compiler shows the line number in the code where the error occured.
+
+2. JDK- Java Development toolkit:
+The JDK is a development environment for building applications, applets, and components using the Java programming language. The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.
+
+   JRE- Java Runtime Environment:
+The Java Runtime Environment (JRE) is software that Java programs require to run correctly. Java is a computer language that powers many current web and mobile applications. The JRE is the underlying technology that communicates between the Java program and the operating system.
+
+   JVM- Java Virtual Machine:
+   JVM makes sure that the code is secured,it provides the secured environment for execution,it verifies the bytecode before executing it.JVM can only decode the bytecode in any of the platform.
+
+3. .java file:The java file containing the code which are readable to humans and saving the file name using .java then only it is considered has java file,it is mandatory that every java file must be saved as .java with its filename.
+
+  .class file:When the java file is compiled it converts java file to .class file also called as byte code,this bytecode is not easily decoded by the humans, it can be decoded using JVM.It brings the concept of the platform independent.
+
+4. Netbeans
+   Eclipse
+   
+
+5. Variable is data container, which stores the data of the variable with the name.In the java, variable should be in the camel case means the it should start with the lower case.
+   Local and Instance variable 
+   The variable which are used inside the method in the class are called local variable.
+   The variable which are used outside the method inside the class are called instance variable.
+   Ex:
+   public class Test{
+       String student;
+       int age;
+       void writingTest(){
+           String teacherName;
+           int noOfClasses;
+       }
+      }
+   It has types in it static and non-static variable.
+   In static variable, it does not dependent on the object creation.
+   in non-static variable it is dependent on the object creation.
+
+6.Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+
+8.Datatype has two types in it predefined and userdefined datatypes which are called as the Primitive and non-primitive datatypes.
+In primitive datatypes,there predefined values in them and always have there values , primitive datatypes starts with the lowercase.Primitive datatypes are bit,short,byte,int,long,float,double,char,boolean.
+Ex: int x=1;
+
+In non primitive datatypes, there are user defined and they always initialise their values in null.The non-primitive datatypes are String,Array and Class.
+Ex: String value="welcome";
+
+9. The member access (dot) operator (“.”) is used frequently to access a field or to call a method on an object. 
+   object a = new object(); 
+   a.ToString(); 
+
+10. 1.Java is secured
+    2.Java is platform-independent
+    3.java is concurrent and multi-threaded
+    4.Java is protable
+    5.Java is object-oriented
+    6.Java is simple and easy
+
+11. Array is collection of similar type(homogeneous) of elements all the values can be stored in the single variable instead of creating single variable for single value.The elements in the array can be accessed using index.The index starts with the 0 and next with 1.The array can be created in two ways: Literal and using new keyword.
+There are types of arrays single dimensional and multi-dimensional and jagged arrays. 
+Ex: int value[] = {1,2,3,4,5};  //literal
+    int[] value = new int[5]; //using new keyword
+
+12. Class is non-primitive datatype,blueprint or template of the object,the class name should always with starts with upper case,class is keyword in the java.The class has members like varibales,methods,nested class.
+Object is real world entity,the object is created using new keyword.the object is instance of class.It has states and behaviors here states means varivles and behaviors means methods/properties.
+Ex:
+public class Test{    //class
+   public static void main(String[] args){
+       
+       Student student = new Student();   //object
+   
+  }
+}
+
+13.Keywords are predefined, reserved words used in Java programming that have special meanings to the compiler. 
+   keywords are:1.class
+                2.static
+                3.this
+                4.new
+                5.final
+                6.enum
+                7.if
+                8.else
+                9.else-if
+                10.break
+
+14. Constructor is a special method,the first line of the constructor is super chaining,it is used in initiaization, the block of code which it executes when the new object is created.The constructor does not the return type because it implicitly returns the object.
+The types of constructor are:1.Default constructor
+                             2.Parameterized constructor
+                             3.Non-parameterized constructor
+
+15. The main() method is marked static so that the JVM may call it without having to create an instance of the class that contains the main() function.
+The types of methods:
+Static method:The method belongs to the class rather than instance of class
+Non-static method:A non-static method is an instance method and belongs to each object that is generated from the class
+  
+ 
+16.
+public class Test{
+    public static void main(String[] args){
+        int value[]={12,3,2,45,6,7,6};
+        System.out.println(value.length);
+       }
+}
+ 
+   
+ 
+
+
+
+   
+   
