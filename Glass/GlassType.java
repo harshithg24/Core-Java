@@ -1,0 +1,4 @@
+enum GlassType{
+	LAMINATED_GLASS,TOUGHENED_GLASS;
+}
+	
