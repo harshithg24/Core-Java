@@ -1,0 +1,4 @@
+enum RemoteUsed{
+	
+	AC,TELEVISION,DVD,MUSIC_SYSTEM;
+}
