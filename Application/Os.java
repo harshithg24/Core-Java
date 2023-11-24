@@ -1,0 +1,3 @@
+enum Os{
+	WINDOWS,MAC,LINUX;
+}

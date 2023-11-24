@@ -1,0 +1,5 @@
+enum AppType{
+	
+	WEB_APPLICATION,STANDALONE_APPLICATION;
+	
+}
