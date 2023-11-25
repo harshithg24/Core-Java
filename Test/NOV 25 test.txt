@@ -1,0 +1,62 @@
+1. public class PrimeNumberChecker {
+
+    public static void main(String[] args) {
+
+         int num = 11;
+         
+           if (num <= 1) {
+            System.out.printnln("Not valid for prime number");
+        }
+
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                System.out.println("Given number is Prime");
+            }
+            else {
+                 System.out.println("Given number is not Prime");
+               }
+}
+
+2.
+   public class Reverse{
+       
+       public static void main(String[] arg){
+
+            String str = "Harshith";
+            String rev;
+            
+            for(int i=str.length();i>=0;i--){
+                 
+                rev = rev + str.charAt[i];
+             }
+          
+           System.out.println("Reversed string:"+rev);
+}
+        
+3. 
+
+public class changeCase {    
+    public static void main(String[] args) {    
+            
+        String str1="XworkzOdC";    
+        StringBuffer newStr=new StringBuffer(str1);    
+            
+        for(int i = 0; i < str1.length(); i++) {    
+                    
+            if(Character.isLowerCase(str1.charAt(i))) {        
+                newStr.setCharAt(i, Character.toUpperCase(str1.charAt(i)));    
+            }    
+            
+            else if(Character.isUpperCase(str1.charAt(i))) {    
+                 
+                newStr.setCharAt(i, Character.toLowerCase(str1.charAt(i)));    
+            }    
+        }    
+        System.out.println("String after case conversion : " + newStr);    
+    }    
+}     
+       
+         
+        
+        
+       
