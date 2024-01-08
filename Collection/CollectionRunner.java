@@ -11,7 +11,7 @@ public class CollectionRunner {
 	public static void main(String[] args) {
 		
 		Collection<String> collection = new ArrayList<>();
-		collection.add("Mirchi FM");
+		collection.add("Mirchi FM");        
 		collection.add("93.5 FM");
 		collection.add("Deccan Radio");
 		collection.add("Entertainment Radioz");
